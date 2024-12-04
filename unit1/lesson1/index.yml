@@ -1,0 +1,5 @@
+id: lesson1
+title: About this course
+objectives: Understand the course structure and objectives.
+lessonParts:
+  - lessonpart1.yml
