@@ -2,9 +2,13 @@
 id: course1
 title: pythonista
 level: beginner
+description: asda
+objectives: sadasd
+prerequisites: asd
 cardImageUrl: https://vscodeedu.com/assets/course-cards/card8.png
 contacts:
   - displayName: vritant24
+    affiliation: msft
     homePageUrl: https://github.com/vritant24/pythonista
 files:
   - path: course1/unit1/lesson1/lessonpart2/newFile.py
