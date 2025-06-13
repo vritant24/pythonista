@@ -1,8 +1,17 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: course1
 title: pythonista
 level: beginner
+cardImageUrl: https://vscodeedu.com/assets/course-cards/card8.png
 contacts:
   - displayName: vritant24
     homePageUrl: https://github.com/vritant24/pythonista
+files:
+  - path: course1/unit1/lesson1/lessonpart2/newFile.py
+    content: "from random import randint\r
+
+      \r
+
+      print(\"hi\")"
 units:
   - unit1/index.yml
