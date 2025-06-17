@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart1
+title: Page
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: string
+        content: \<a\>
+        options:
+          - id: "1"
+            value: \<p\>
+            isCorrect: true
