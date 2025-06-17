@@ -5,9 +5,14 @@ questionGroups:
   - id: "1"
     questions:
       - id: "1"
-        type: string
-        content: \<a\>
+        type: multiple
+        content: |
+          What is the primary \<a\>?
         options:
           - id: "1"
-            value: \<p\>
+            value: anchor tag
+            explanation: This is the stated objective of the lesson.
             isCorrect: true
+          - id: "2"
+            value: \<script\>
+            explanation: This is not covered in the introductory lesson.
