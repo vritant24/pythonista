@@ -1,6 +1,16 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
 title: Page
+content: |+
+  This is a code block:
+
+  ```python
+  def fun:
+    print("hello")
+
+  fun()
+  ```
+
 questionGroups:
   - id: "1"
     questions:
