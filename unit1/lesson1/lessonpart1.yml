@@ -2,27 +2,175 @@
 id: lessonpart1
 title: Page
 content: |+
-  This is a code block:
+  This is a code block: dsfl;
 
   ```python
-  def fun:
-    print("hello")
-
+  def fun():
+      print("hello")
   fun()
   ```
 
-questionGroups:
-  - id: "1"
-    questions:
-      - id: "1"
-        type: multiple
-        content: |
-          What is the primary \<a\>?
-        options:
-          - id: "1"
-            value: anchor tag
-            explanation: This is the stated objective of the lesson.
-            isCorrect: true
-          - id: "2"
-            value: \<script\>
-            explanation: This is not covered in the introductory lesson.
+  Here's a simple function to add two numbers:
+
+  ```python
+  def add(a, b):
+      return a + b
+
+  result = add(3, 5)
+  print(result)
+  ```
+
+  A loop that prints numbers from 1 to 5:
+
+  ```python
+  for i in range(1, 6):
+      print(i)
+  ```
+
+  A function to check if a number is even:
+
+  ```python
+  def is_even(number):
+      return number % 2 == 0
+
+  print(is_even(4))
+  ```
+
+  A list comprehension example:
+
+  ```python
+  squares = [x**2 for x in range(10)]
+  print(squares)
+  ```
+
+  A dictionary with some key-value pairs:
+
+  ```python
+  student_grades = {'Alice': 85, 'Bob': 92, 'Charlie': 78}
+  print(student_grades)
+  ```
+
+  A simple class definition:
+
+  ```python
+  class Dog:
+      def __init__(self, name):
+          self.name = name
+
+      def bark(self):
+          print("Woof!")
+
+  my_dog = Dog("Buddy")
+  my_dog.bark()
+  ```
+
+  Using a while loop:
+
+  ```python
+  count = 0
+  while count < 5:
+      print(count)
+      count += 1
+  ```
+
+  A function with default parameters:
+
+  ```python
+  def greet(name="Guest"):
+      print(f"Hello, {name}!")
+
+  greet()
+  greet("Alice")
+  ```
+
+  Reading a file:
+
+  ```python
+  with open('example.txt', 'r') as file:
+      content = file.read()
+      print(content)
+  ```
+
+  Writing to a file:
+
+  ```python
+  with open('output.txt', 'w') as file:
+      file.write("Hello, world!")
+  ```
+
+  Using a try-except block:
+
+  ```python
+  try:
+      result = 10 / 0
+  except ZeroDivisionError:
+      print("Cannot divide by zero!")
+  ```
+
+  A lambda function example:
+
+  ```python
+  multiply = lambda x, y: x * y
+  print(multiply(3, 4))
+  ```
+
+  Using map with a lambda:
+
+  ```python
+  numbers = [1, 2, 3, 4]
+  squared = list(map(lambda x: x**2, numbers))
+  print(squared)
+  ```
+
+  Filtering a list with filter:
+
+  ```python
+  numbers = [1, 2, 3, 4, 5, 6]
+  evens = list(filter(lambda x: x % 2 == 0, numbers))
+  print(evens)
+  ```
+
+  Using a set to remove duplicates:
+
+  ```python
+  numbers = [1, 2, 2, 3, 4, 4, 5]
+  unique_numbers = set(numbers)
+  print(unique_numbers)
+  ```
+
+  A simple recursive function:
+
+  ```python
+  def factorial(n):
+      if n == 0:
+          return 1
+      else:
+          return n * factorial(n-1)
+
+  print(factorial(5))
+  ```
+
+  Using enumerate in a loop:
+
+  ```python
+  fruits = ['apple', 'banana', 'cherry']
+  for index, fruit in enumerate(fruits):
+      print(index, fruit)
+  ```
+
+  A basic example of list slicing:
+
+  ```python
+  numbers = [0, 1, 2, 3, 4, 5]
+  print(numbers[1:4])
+  ```
+
+  Using zip to combine lists:
+
+  ```python
+  names = ['Alice', 'Bob', 'Charlie']
+  scores = [85, 92, 78]
+  for name, score in zip(names, scores):
+      print(f"{name}: {score}")
+  ```
+
