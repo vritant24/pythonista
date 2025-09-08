@@ -178,7 +178,3 @@ showEditor: true
 editors:
   - course1/unit1/lesson1/lessonpart1/prompt.md
   - course1/unit1/lesson1/lessonpart1/newFile.txt
-codePrompts:
-  - systemPrompt: "1"
-    promptFile: course1/unit1/lesson1/lessonpart1/prompt.md
-    targetCodeFile: course1/unit1/lesson1/lessonpart1/newFile.txt
