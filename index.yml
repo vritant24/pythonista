@@ -10,5 +10,9 @@ contacts:
   - displayName: vritant24
     affiliation: msft
     homePageUrl: https://github.com/vritant24/pythonista
+systemPrompts:
+  - id: "1"
+    displayName: new
+    prompt: please do this
 units:
   - unit1/index.yml
