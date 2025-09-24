@@ -5,7 +5,7 @@ level: beginner
 description: asda
 objectives: sadasd
 prerequisites: asd
-cardImageUrl: https://vscodeedu.com/assets/course-cards/card8.png
+cardImageUrl: https://github.com/microsoft/vscode-edu-services/blob/main/assets/images/og-card.png?raw=true
 contacts:
   - displayName: vritant24
     affiliation: msft
